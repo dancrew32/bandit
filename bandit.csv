@@ -1,0 +1,4 @@
+filename,test_name,test_id,issue_severity,issue_confidence,issue_text,line_number,line_range,more_info
+./app/app.py,hardcoded_password_string,B105,LOW,MEDIUM,Possible hardcoded password: 'cheese',1,"[1, 2]",https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+./app/app.py,assert_used,B101,LOW,HIGH,Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.,3,[3],https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+./app/app.py,hardcoded_sql_expressions,B608,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.,10,[10],https://bandit.readthedocs.io/en/latest/plugins/b608_hardcoded_sql_expressions.html
